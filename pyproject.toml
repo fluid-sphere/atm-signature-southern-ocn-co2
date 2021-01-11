@@ -1,0 +1,21 @@
+[tool.black]
+line-length = 100
+target-version = ['py38']
+skip-string-normalization = true
+
+[tool.nbqa.mutate]
+isort = 1
+black = 1
+pyupgrade = 1
+
+[tool.nbqa.addopts]
+pyupgrade = ["--py36-plus"]
+
+[tool.isort]
+
+known_third_party=[]
+multi_line_output=3
+include_trailing_comma=true
+force_grid_wrap=0
+combine_as_imports=true
+line_length=100

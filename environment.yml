@@ -1,0 +1,17 @@
+name: jupyter-book
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - cookiecutter
+  - ghp-import
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - myst-nb
+  - numpy
+  - pip
+  - pre-commit
+  - sphinx-book-theme
+  - pip:
+      - jupyter-book
